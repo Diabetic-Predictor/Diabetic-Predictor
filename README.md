@@ -96,3 +96,7 @@ npx prisma migrate up --experimental
 2 - Register as a doctor or log in with your credentials. <br/>
 3 - Start predicting diabetes likelihood for patients by providing relevant health data. <br/>
 4 - Explore the patient history to review past predictions and monitor patient health progress.<br/>
+
+## Postman Collection
+
+This file contains the Postman collection for the **Diabetic predictor ** API. Use this collection to interact with the API endpoints and test various functionalities.
