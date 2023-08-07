@@ -99,7 +99,9 @@ npx prisma migrate up --experimental
 
 ## Postman Collection
 
-![Postman Logo]('./front-end/public/assets/postman.jpg')
+<a href="https://www.postman.com/">
+  <img src="./front-end/public/assets/postman.jpg" alt="Postman Logo" width="50" height="50">
+</a>
 
 This is a Postman collection for the **Diabetic Predictor** API! This collection contains API requests to interact with the Diabetic Predictor service and test its functionalities.
 
