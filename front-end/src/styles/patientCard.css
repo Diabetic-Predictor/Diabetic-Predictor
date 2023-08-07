@@ -1,0 +1,34 @@
+/* patientCard.css */
+
+.patient-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add some spacing between cards */
+    flex: 0 0 calc(50% - 20px); /* Each card takes 50% width with a 20px gap */
+}
+
+.patient-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.patient-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #555;
+}
+
+.detail-item span {
+  font-weight: bold;
+  margin-right: 5px;
+}

@@ -1,0 +1,103 @@
+/* home.css */
+
+/* Add a CSS reset to remove default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column; /* Arrange elements in a column */
+  overflow-x: hidden; /* Hide any content overflow */
+  align-items: center; 
+}
+
+.image-container { 
+  flex: 0 0 60%; /* Take 60% of the viewport height for the image */
+  position: relative;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  width: 100%;
+  max-height: 60%; /* Set the height to 60% of the viewport height */
+  max-height: 500px;
+  overflow: hidden; /* Hide any content overflow */
+}
+
+.image-style {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make the image cover the container while maintaining aspect ratio */
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row; /* Arrange buttons in a row */
+  align-items: center;
+  justify-content: center; /* Center the buttons horizontally */
+  padding: 20px;
+    margin-bottom: 10px; /* Add a margin at the bottom to create space between buttons and content */
+}
+
+.buttons-container button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #2691d9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* Add some spacing between buttons */
+}
+
+.buttons-container button:last-child {
+  margin-right: 0; /* Remove right margin from the last button to prevent extra space */
+}
+
+.buttons-container button:hover {
+  background-color: #1e759e;
+}
+
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+    justify-content: center; /* Center the image and buttons inside the content container */
+  justify-content: flex-start; /* Align the content at the top of the container */
+  align-items: center; /* Center the image and buttons horizontally */
+   z-index: 1;
+}
+
+.add-patient-sidebar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50%;
+  max-width: 500px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  border-radius: 15px;
+  z-index: 3;
+}
+
+.blur-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+} 
+
+.view-patient-history {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px; /* Add margin at the top to separate it from the buttons */
+  display: grid;
+}

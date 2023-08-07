@@ -1,0 +1,57 @@
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 80%; /* Make the popup 80% of the container width */
+  max-width: 400px; /* Set a maximum width to prevent it from becoming too large */
+  transform: translate(-50%, -50%); /* Center the popup horizontally and vertically */
+  position: absolute; /* Position the popup in the center */
+  top: 50%; /* Align the top edge of the popup to the center */
+  left: 50%; /* Align the left edge of the popup to the center */
+}
+
+.prediction-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.percentage-circle {
+  border: 3px solid #007bff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.percentage-circle span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.popup-content span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.popup-content span:last-child {
+  margin-top: 10px;
+  color: #888;
+}
+
