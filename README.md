@@ -98,5 +98,4 @@ npx prisma migrate up --experimental
 4 - Explore the patient history to review past predictions and monitor patient health progress.<br/>
 
 ## Postman Collection
-
-This file contains the Postman collection for the **Diabetic predictor ** API. Use this collection to interact with the API endpoints and test various functionalities.
+- Navigate to the Postman collection directory within the cloned repository , you will find file contains the Postman collection for the ** Diabetic predictor ** API. Use this collection to interact with the API endpoints and test various functionalities.
