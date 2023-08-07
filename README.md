@@ -99,9 +99,13 @@ npx prisma migrate up --experimental
 
 ## Postman Collection
 
-<a href="https://www.postman.com/">
-  <img src="./front-end/public/assets/postman.jpg" alt="Postman Logo" width="50" height="50">
-</a>
+<div style="display: inline-block; border: none;">
+  <a href="https://github.com/Diabetic-Predictor/Diabetic-Predictor/blob/main/Postman%20Collection/Diabetic-predictor.postman_collection.json">
+    <img src="./front-end/public/assets/postman.jpg" alt="Postman Logo" width="50" height="50" style="border: none;">
+  </a>
+  <p style="display: inline-block; vertical-align: top; margin-left: 10px;">
+    This is a Postman collection for the **Diabetic Predictor** API! This collection contains API requests to interact with the Diabetic Predictor service and test its functionalities.
+  </p>
+</div>
 
-This is a Postman collection for the **Diabetic Predictor** API! This collection contains API requests to interact with the Diabetic Predictor service and test its functionalities.
 
